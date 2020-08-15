@@ -26,18 +26,16 @@ function SimpleCard(props) {
     <Card>
       <CardHeader
         avatar={
-          <Avatar aria-label="recipe" className={classes.avatar}>
-            R
-          </Avatar>
-        }
+          <Avatar src={avatarSrc} />}
         action={
           <IconButton aria-label="settings">
             <ShareIcon />
           </IconButton>
         }
-        title="Shrimp and Chorizo Paella"
-        subheader="September 14, 2016"
+        title={title}
+        subheader={subtitle}
       />
+      <CardMedia style= {{height:"150px"}} image={imgSrc} />
       <CardContent>
         <Typography
           className={classes.title}

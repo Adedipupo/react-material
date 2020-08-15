@@ -6,7 +6,10 @@ const Content = () => {
 return(
    <Grid container spacing={2}>
       <Grid item xs={12} sm={4}>
-         <SimpleCard />
+         <SimpleCard 
+           title={"Hamilton Beach"} 
+           subtitle={"89.99"} 
+           avatarSrc="/static/Images/avatar/1.jpg"/>
       </Grid>
    </Grid>
    

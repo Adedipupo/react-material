@@ -9,8 +9,8 @@ return(
          <SimpleCard 
            title="Hamilton Beach"
            subtitle="89.99"
-           avatarSrc="/static/Images/avatar/1.jpg"
-           imgSrc="https://cdn.britannica.com/98/100098-050-CFA01318/Beach-Malibu-Calif.jpg" 
+           avatarUrl="/static/Images/avatar/1.jpg"
+           imgUrl="https://cdn.britannica.com/98/100098-050-CFA01318/Beach-Malibu-Calif.jpg" 
             description="well meaning and kind a benevolent smile"
            />
       </Grid>

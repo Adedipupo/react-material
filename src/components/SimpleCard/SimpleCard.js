@@ -13,14 +13,14 @@ import { red } from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 import { useStyles } from "./styles";
 
 
 
-function SimpleCard() {
+function SimpleCard(props) {
   const classes = useStyles();
   const bull = <span className={classes.bullet}>•</span>;
+  const { avatarSrc, title, subtitle, description, imgSrc} = props;
 
   return (
     <Card>
@@ -32,7 +32,7 @@ function SimpleCard() {
         }
         action={
           <IconButton aria-label="settings">
-            <MoreVertIcon />
+            <ShareIcon />
           </IconButton>
         }
         title="Shrimp and Chorizo Paella"

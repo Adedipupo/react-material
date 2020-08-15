@@ -1,10 +1,15 @@
 import React from 'react';
+import { AppBar, Toolbar, Typography } from '@material-ui/core';
 
 const Header = () => {
 return(
-  <div>
-     <h1>This is the Header</h1>
-  </div>
+    <AppBar>
+        <Toolbar>
+            <Typography>
+                This is the Header
+            </Typography>
+        </Toolbar>
+    </AppBar>
 )
 }
 

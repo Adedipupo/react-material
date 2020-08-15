@@ -1,9 +1,6 @@
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles } from '@material-ui/styles';
 
 export const useStyles = makeStyles({
-    root: {
-        minWidth: 275,
-    },
     bullet: {
         display: 'inline-block',
         margin: '0 2px',

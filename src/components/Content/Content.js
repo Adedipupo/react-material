@@ -1,9 +1,21 @@
 import React from 'react';
-import { Card } from '@material-ui/core';
+import SimpleCard from '../SimpleCard/SimpleCard';
+import { Grid } from '@material-ui/core';
 
 const Content = () => {
 return(
-   <Card />
+   <Grid container spacing={2}>
+      <Grid item xs={4}>
+         <SimpleCard />
+      </Grid>
+      <Grid item xs={4}>
+         <SimpleCard />
+      </Grid>
+      <Grid item xs={4}>
+         <SimpleCard />
+      </Grid>
+   </Grid>
+   
 )
 }
 

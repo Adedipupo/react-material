@@ -1,10 +1,9 @@
 import React from 'react';
+import { Card } from '@material-ui/core';
 
 const Content = () => {
 return(
-  <div>
-     Content Hereeeeeee
-  </div>
+   <Card />
 )
 }
 

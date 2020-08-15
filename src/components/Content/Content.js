@@ -6,13 +6,17 @@ import CardList from '../Constant';
 const Content = () => {
 
    const getCardList = (CardListObj) => {
-      return <SimpleCard {...CardListObj}/>
+      return (
+         <Grid item xs={12} sm={4}>
+          <SimpleCard {...CardListObj} />
+          </Grid>
+      )
    }
 return(
    <Grid container spacing={2}>
-      <Grid item xs={12} sm={4}>
+
          {CardList.map(CardListObj => getCardList(CardListObj))}
-      </Grid>
+  
    </Grid>
    
 )

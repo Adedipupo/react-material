@@ -8,15 +8,6 @@ return(
       <Grid item xs={12} sm={3}>
          <SimpleCard />
       </Grid>
-      <Grid item xs={12} sm={3}>
-         <SimpleCard />
-      </Grid>
-      <Grid item xs={12} sm={3}>
-         <SimpleCard />
-      </Grid>
-      <Grid item xs={12} sm={3}>
-         <SimpleCard />
-      </Grid>
    </Grid>
    
 )

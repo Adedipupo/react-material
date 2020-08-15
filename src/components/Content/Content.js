@@ -1,18 +1,17 @@
 import React from 'react';
 import SimpleCard from '../SimpleCard/SimpleCard';
 import { Grid } from '@material-ui/core';
+import CardList from '../Constant';
 
 const Content = () => {
+
+   const getCardList = (CardListObj) => {
+      return <SimpleCard {...CardListObj}/>
+   }
 return(
    <Grid container spacing={2}>
       <Grid item xs={12} sm={4}>
-         <SimpleCard 
-           title="Hamilton Beach"
-           subtitle="89.99"
-           avatarUrl="/static/Images/avatar/1.jpg"
-           imgUrl="https://cdn.britannica.com/98/100098-050-CFA01318/Beach-Malibu-Calif.jpg" 
-            description="well meaning and kind a benevolent smile"
-           />
+         {CardList.map(CardListObj => getCardList(CardListObj))}
       </Grid>
    </Grid>
    

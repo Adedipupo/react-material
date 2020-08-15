@@ -10,7 +10,12 @@ function App() {
       <Grid item container>
         <Grid item xs={2} />
         <Grid item xs={8}>
-        Content
+          ContentContentContent
+          ContentContentContent
+                    ContentContentContent
+          ContentContentContent
+                    ContentContentContent
+          ContentContentContent
         </Grid>
         <Grid item xs={2} />
       </Grid>

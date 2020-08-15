@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography className={classes.typographyStyles}>This is the Header</Typography>
+        <Typography className={classes.typographyStyles}>Header</Typography>
         <AcUnitRoundedIcon />
       </Toolbar>
     </AppBar>
